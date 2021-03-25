@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{24F8A00D-23B9-4685-AE25-4E3D540D590D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DesignPatterns</RootNamespace>
+    <AssemblyName>DesignPatterns</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01AbstractFactory\NokiaPhone\Nokia1600.cs" />
+    <Compile Include="01AbstractFactory\NokiaPhone\NokiaPixel.cs" />
+    <Compile Include="01AbstractFactory\SamsungPhone\Samsung.cs" />
+    <Compile Include="01AbstractFactory\IMobilePhone.cs" />
+    <Compile Include="01AbstractFactory\INormalPhone.cs" />
+    <Compile Include="01AbstractFactory\ISmartPhone.cs" />
+    <Compile Include="01AbstractFactory\NokiaPhone\Nokia.cs" />
+    <Compile Include="01AbstractFactory\SamsungPhone\SamsungGalaxy.cs" />
+    <Compile Include="01AbstractFactory\SamsungPhone\SamsungGuru.cs" />
+    <Compile Include="02FactoryMethod\Document.cs" />
+    <Compile Include="02FactoryMethod\Documents\Report.cs" />
+    <Compile Include="02FactoryMethod\Documents\Resume.cs" />
+    <Compile Include="02FactoryMethod\Pages\ConculusionPage.cs" />
+    <Compile Include="02FactoryMethod\Pages\EducationPage.cs" />
+    <Compile Include="02FactoryMethod\Pages\ExperiencePage.cs" />
+    <Compile Include="02FactoryMethod\Pages\IntroductionPage.cs" />
+    <Compile Include="02FactoryMethod\Page.cs" />
+    <Compile Include="02FactoryMethod\Pages\ResultsPage.cs" />
+    <Compile Include="02FactoryMethod\Pages\SkillPage.cs" />
+    <Compile Include="02FactoryMethod\Pages\SummaryPage.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
