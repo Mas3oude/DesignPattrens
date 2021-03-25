@@ -3,6 +3,7 @@ using DesignPatterns._01AbstractFactory.NokiaPhone;
 using DesignPatterns._01AbstractFactory.SamsungPhone;
 using DesignPatterns._02FactoryMethod;
 using DesignPatterns._02FactoryMethod.Documents;
+using DesignPatterns._02StructuralPatterns._07Proxy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,8 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
+
+            #region 01 Creation Patterns
             #region 01 Abstract Factory 
             //ISmartPhone smartPhone;
             //INormalPhone normalPhone;
@@ -47,8 +50,21 @@ namespace DesignPatterns
             }
             #endregion
 
+            #endregion
 
+            #region 02 Structural Patterns
+            #region 07 Proxy
+            IMath proxy = new MathProxy();
 
+            Console.WriteLine("4 + 2 = " + proxy.Add(4, 2));
+            Console.WriteLine("4 - 2 = " + proxy.Sub(4, 2));
+            Console.WriteLine("4 * 2 = " + proxy.Mul(4, 2));
+            Console.WriteLine("4 / 2 = " + proxy.Div(4, 2));
+            #endregion
+            #endregion
+
+            #region 03 Behavioral Patterns
+            #endregion
             FinishProgram();
         }
 

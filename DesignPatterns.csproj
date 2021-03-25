@@ -43,34 +43,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01AbstractFactory\NokiaPhone\Nokia1600.cs" />
-    <Compile Include="01AbstractFactory\NokiaPhone\NokiaPixel.cs" />
-    <Compile Include="01AbstractFactory\SamsungPhone\Samsung.cs" />
-    <Compile Include="01AbstractFactory\IMobilePhone.cs" />
-    <Compile Include="01AbstractFactory\INormalPhone.cs" />
-    <Compile Include="01AbstractFactory\ISmartPhone.cs" />
-    <Compile Include="01AbstractFactory\NokiaPhone\Nokia.cs" />
-    <Compile Include="01AbstractFactory\SamsungPhone\SamsungGalaxy.cs" />
-    <Compile Include="01AbstractFactory\SamsungPhone\SamsungGuru.cs" />
-    <Compile Include="02FactoryMethod\Document.cs" />
-    <Compile Include="02FactoryMethod\Documents\Report.cs" />
-    <Compile Include="02FactoryMethod\Documents\Resume.cs" />
-    <Compile Include="02FactoryMethod\Pages\ConculusionPage.cs" />
-    <Compile Include="02FactoryMethod\Pages\EducationPage.cs" />
-    <Compile Include="02FactoryMethod\Pages\ExperiencePage.cs" />
-    <Compile Include="02FactoryMethod\Pages\IntroductionPage.cs" />
-    <Compile Include="02FactoryMethod\Page.cs" />
-    <Compile Include="02FactoryMethod\Pages\ResultsPage.cs" />
-    <Compile Include="02FactoryMethod\Pages\SkillPage.cs" />
-    <Compile Include="02FactoryMethod\Pages\SummaryPage.cs" />
+    <Compile Include="01CreationalPatterns\01AbstractFactory\NokiaPhone\Nokia1600.cs" />
+    <Compile Include="01CreationalPatterns\01AbstractFactory\NokiaPhone\NokiaPixel.cs" />
+    <Compile Include="01CreationalPatterns\01AbstractFactory\SamsungPhone\Samsung.cs" />
+    <Compile Include="01CreationalPatterns\01AbstractFactory\IMobilePhone.cs" />
+    <Compile Include="01CreationalPatterns\01AbstractFactory\INormalPhone.cs" />
+    <Compile Include="01CreationalPatterns\01AbstractFactory\ISmartPhone.cs" />
+    <Compile Include="01CreationalPatterns\01AbstractFactory\NokiaPhone\Nokia.cs" />
+    <Compile Include="01CreationalPatterns\01AbstractFactory\SamsungPhone\SamsungGalaxy.cs" />
+    <Compile Include="01CreationalPatterns\01AbstractFactory\SamsungPhone\SamsungGuru.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Document.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Documents\Report.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Documents\Resume.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Pages\ConculusionPage.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Pages\EducationPage.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Pages\ExperiencePage.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Pages\IntroductionPage.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Page.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Pages\ResultsPage.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Pages\SkillPage.cs" />
+    <Compile Include="01CreationalPatterns\02FactoryMethod\Pages\SummaryPage.cs" />
+    <Compile Include="02StructuralPatterns\07Proxy\IMath.cs" />
+    <Compile Include="02StructuralPatterns\07Proxy\Math.cs" />
+    <Compile Include="02StructuralPatterns\07Proxy\MathProxy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="UMLs\01AbstractFactory.cd" />
-    <None Include="UMLs\02FactoryMethod.cd" />
+    <None Include="UMLs\01CreationalPatterns\01AbstractFactory.cd" />
+    <None Include="UMLs\01CreationalPatterns\02FactoryMethod.cd" />
+    <None Include="UMLs\02StructuralPatterns\07 Proxy\07Proxy.cd" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="03BehavioralPatterns\" />
+    <Folder Include="UMLs\03BehavioralPatterns\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
