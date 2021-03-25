@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns._02FactoryMethod.Document" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAgAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Document.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.Page" Collapsed="true">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Page.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.ConculusionPage" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Pages\ConculusionPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.EducationPage" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Pages\EducationPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.ExperiencePage" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Pages\ExperiencePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.IntroductionPage" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Pages\IntroductionPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.ResultsPage" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Pages\ResultsPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.SkillPage" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Pages\SkillPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.SummaryPage" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Pages\SummaryPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.Documents.Report" Collapsed="true">
+    <Position X="3.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Documents\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns._02FactoryMethod.Documents.Resume" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>02FactoryMethod\Documents\Resume.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

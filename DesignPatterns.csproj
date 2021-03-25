@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="UMLs\01AbstractFactory.cd" />
+    <None Include="UMLs\02FactoryMethod.cd" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
